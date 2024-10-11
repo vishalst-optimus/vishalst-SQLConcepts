@@ -33,10 +33,9 @@ CREATE TABLE Order_Items(
 	Quantity int
 );
 
-DROP TABLE order_items;
-
 --Insert Customer Values
 INSERT INTO Customers VALUES
+	(1, 'Vishal Singh Thapa', '8130532163', 'vst@gmail.com', '2022-01-05'),
 	(2, 'Amit Singh', '9936471902', 'amt@yahoo.com', '2021-07-23'),
 	(3, 'Ashutosh Pandey', '8842836210', 'ash@hotmail.com', '2022-12-12'),
 	(4, 'Arunima', '8934567809', 'arn@gmail.com', '2023-08-09'),

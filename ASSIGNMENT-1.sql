@@ -41,6 +41,7 @@ INSERT INTO Customers VALUES
 	(5, 'Bhagat Singh', '9835672310', 'bhg@yahoo.com', '2021-06-07'),
 	(6, 'Aman Chauhan', '7836239056', 'aman@hotmail.com', '2021-01-05');
 
+Select * from Customers;
 
 --Insert Order values
 INSERT INTO Orders (Cust_ID, Order_Total, Order_Date) VALUES
